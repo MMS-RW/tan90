@@ -1,0 +1,139 @@
+.personal_container{
+	max-width:640px;
+	margin:0 auto;
+	height:100%;
+	padding:0;
+	.personal_top{
+		width:100%;
+		height:3.4rem;
+		background:url('../../assets/images/my-top.png');
+		background-size:cover;
+
+		.personal_logo{
+			padding:0.5rem 0;
+			text-align:center;
+			span{
+				display:inline-block;
+				font-size:0.28rem;
+			}
+			img{
+				width:0.96rem;
+			}
+		}
+		ul{
+			width:100%;
+			padding:0 5%;
+			li{
+				display:inline-block;
+				width:30%;
+				text-align:center;
+				margin-left:0.1rem;
+				font-size:0.28rem;
+				p{
+					margin:0;
+				}
+			}
+		}
+	}
+	.personal_center{
+		width: 100%;
+		height: 3.0rem;
+		background: url(/src/assets/images/back-order.png) no-repeat;
+		background-size: 6.8rem 3.0rem;
+		position: relative;
+		top: -0.426667rem;
+		padding-top: 0.426667rem;
+		.personal_allorder{
+			width:100%;
+			line-height:0.56rem;
+			font-size:0.28rem;
+			span:first-child{
+				float:left;
+				padding-left:0.2rem;
+			}
+			.allorder_click{
+				float:right;
+				padding-right:0.3rem;
+				color:#aaa;
+				i{
+					position:relative;
+					top:0.03rem;
+				}
+			}
+			div{
+				clear:both;
+			}
+		}
+		.personal_nav{
+			padding:0.4rem;
+			display:flex;
+			justify-content:space-between;
+			li{
+				p{
+					margin:0;
+					.iconfont{
+						font-size:0.6rem;
+						color:#FFC926;
+					}
+				}
+			}
+			li:nth-child(2),li:nth-child(3){
+				margin-top:-0.08rem;
+			}
+			li:last-child{
+				.iconfont{
+					font-size:0.56rem;
+				}
+			}
+		}
+	}
+	.personal_more{
+		ul{
+			padding:0 0.3rem;
+			li{
+				position:relative;
+				line-height:0.6rem;
+				span{
+					margin-left:0.2rem;
+					font-size:0.28rem;
+				}
+				.iconfont{
+					color:#FFC926;
+				}
+				.icon-iconfontqianjin2,.personal_tel{
+					color:#aaa;
+					float:right;
+					position:relative;
+					right:0;
+					top:0.03rem;
+				}
+				.personal_tel{
+					color:#FFC926;
+					font-size:0.24rem;
+				}
+			}
+		}
+	}
+	.personal_login{
+		width:100%;
+		height:4.0rem;
+		background-color:#f6f6f6;
+		padding-top:0.4rem;
+		text-align:center;
+		span{
+			display:inline-block;
+			padding:0.14rem 1.6rem;
+			box-shadow:0.02rem 0 0.04rem 0.02rem #ddd;
+			background-color:#FFC926;
+			border-radius:0.4rem;
+		}	
+	}
+}
+// .clearfix{
+// 	content:'';
+// 	clear:both;
+// 	display:block;
+// 	height:0;
+// 	overflow:hidden;
+// 	visibility:hidden;
+// }

@@ -1,0 +1,350 @@
+.car{
+    overflow-y:auto; 
+    overflow-x:hidden;
+}
+.car-top{
+    height: 42px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    background:#fff;
+    z-index:1000;
+    div{
+        width: 100%;
+        // position: fixed;
+        // top:0;
+        // line-height: 42;
+        height: 42px;
+        background-color: white;
+        position:relative;
+        border-bottom:1px solid #efefef;
+        box-shadow: 0px 1px 2px #efefef;
+ 
+        i{  
+            position: absolute;
+            top:12px;
+            left:15px;
+            width: 40%;
+            display: inline-block;
+            // line-height: 42;
+            height: 30px;
+        }
+        span{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 42px;
+            font-size:16px;
+        }
+    }
+    
+}
+
+.car-body-none{
+    // display: none;
+    text-align: center;
+    padding-top:40px;
+    img{
+        width: 70%;
+    }
+    span{
+        display: block;
+        font-size: 14px;
+        height: 50px;
+        line-height: 25px;
+        margin-bottom:40px;
+    }
+    .car-btn-none{
+        background-color: #FFDE3B;
+        display: block;
+        width: 200px;
+        height: 35px;
+        line-height: 35px;
+        border:0;
+        border-radius:17px 17px 17px 17px;
+        box-shadow: 0 .08rem .266667rem .08rem rgba(203,181,80,.35)
+    }
+}
+
+.car-body-has{
+    // display: none;
+    height: 500px;
+    background-color: #F8F8F8;
+    padding-top:40px;
+    padding-bottom: 50px;
+    
+    .car-tips{
+        background-color: #FFFAE0;
+        color:#666666;
+        height: 28px;
+        padding: 0 0.4rem;
+        line-height: 28px;
+        font-size: 12px;
+    }
+    .carBodyMain{
+        width: 95%;
+        margin:0 auto;
+        margin-top:8px;
+        border-radius:8px 8px 0 0;
+        border:1px solid #E3E3E3;
+        .carBodyMainTop{
+            background-color: #FFDE3B;
+            height: 30px;
+            line-height: 30px;
+            border-radius:8px 8px 0 0;
+            .carBodyMainTopLeftBox{
+                display: inline-block;
+                height: 100%;
+                width: 30px;
+                border-radius:8px 0 0 0;
+                text-align: center;
+                position: relative;
+                span{
+                    position: absolute;
+                    top:4px;
+                    left:5px;
+                    display: inline-block;
+                    height: 13px;
+                    width: 13px;
+                    background-color: #FFFAE0;
+                    border:1px solid #BBAE70;
+                    border-radius: 50%;
+                    position: relative;
+                    i{
+                        display: inline-block;
+                        position: absolute;
+                        top:-10px;
+                        left:-1px;
+                        // display: none;
+                        color:#FFDE3B;
+                        font-size:13px;
+                    }
+                }
+            }
+            &>span{
+                text-overflow: ellipsis;
+            }
+        }
+        .carBodyMainTopProduct{
+            width: 100%;
+            background-color: #fff;
+            li{
+                border-top:1px solid #E3E3E3;
+                width: 100%;
+                height: 80px;
+                // background-color: red;
+                line-height: 80px;
+                display: flex;
+                .carBodyMainTopProductLeft{
+                    width: 11%;
+                    display: inline-block;
+                    height: 100%;
+                    width: 30px;
+                    border-radius:8px 0 0 0;
+                    text-align: center;
+                    position: relative;
+                    span{
+                        position: absolute;
+                        top:4px;
+                        left:5px;
+                        display: inline-block;
+                        height: 13px;
+                        width: 13px;
+                        background-color: #FFFAE0;
+                        border:1px solid #BBAE70;
+                        border-radius: 50%;
+                        position: relative;
+                        i{
+                            display: inline-block;
+                            position: absolute;
+                            top:-35px;
+                            left:-1px;
+                            // display: none;
+                            color:#FFDE3B;
+                            font-size:13px;
+                        }
+                    }
+                }
+                .carBodyMainTopProductRight{
+                    display: inline-block;
+                    width: 89%;
+                    height: 80px;
+                    padding-top:11px;
+                    position: relative;
+                    img{
+                        position: absolute;
+                        top:11px;
+                        left:0;
+                        display: inline-block;
+                        // height: 80%;
+                        width: 58px;
+                        height: 58px;
+                        
+                    }
+                    .carBodyMainTopProductRightName{
+                        display: inline-block;
+                        // height: 58px;
+                        position: absolute;
+                        padding-left:5px;
+                        top:-14px;
+                        left:58px;
+                        span:nth-child(1){
+                            font-size: 14px;
+                            color: #1C1C1C;
+                            line-height: 20px;
+                            display: inline-block;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                    .carBodyMainTopProductRightPrice{
+                        position: absolute;
+                        top:20px;
+                        left:62px;
+                        display: inline-block;
+                        font-size: 14px;
+                        color: #FA4A0D;
+                    }
+                    .carMinAdd{
+                        position: absolute;
+                        top:29px;
+                        left:160px;
+                        display: inline-block;
+                        height: 100%;
+                        width: 100px;
+                        line-height: 28px !important;
+                        position: relative;
+                        text-align: center;
+                        span{
+                            display: inline-block;
+                        }
+                        input{
+                            display: inline-block;
+                            width: 15px;
+                            height: 15px;
+                            text-align: center;
+                            background-color: #fff;
+                            border:0;
+                        }
+                        .carMin, .carAdd{
+                            position: absolute;
+                            border:1px solid #9e9e9e;
+                            // padding-left:1px;
+                            width: 20px;
+                            height: 20px;
+                            border-radius:50%;
+                            line-height: 18px;
+                            text-align:center;
+                            font-size:25px;
+                            color: #FFDE3B;
+                        }
+                        .carMin{
+                            top:8px;
+                            left:5px;
+                            font-weight:bold;
+                            line-height: 14px;
+                            padding-right: 1px;
+
+                        }
+                        .carAdd{
+                            top:8px;
+                            right:8px;
+                        }
+                        .carNum{
+                            position: absolute;
+                            height: 20px;
+                            width: 20px;
+                            top:8px;
+                            right:42px;
+                            font-size:14px;
+                        }
+                    }
+                    .carDelete{
+                        position: absolute;
+                        top:-124px;
+                        right:21px;
+                        height: 20px;
+                        line-height: 20;
+                        i{
+                            font-size:12px;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    .carPayBtnBox{
+        height: 44px;
+        width: 100%;
+        background-color: #fff;
+        position: fixed;
+        bottom:44px;
+        border-top:1px solid #efefef;
+        box-shadow: 1px 0px 2px #efefef;
+        line-height: 42px;
+        .carPayBtnLeft{
+            display: inline-block;
+            position: relative;
+            width: 80px;
+            .carPayBtnLeftSelect{
+                position: absolute;
+                top:0px;
+                left:0;
+                display: inline-block;
+                // height: 100%;
+                width: 25px;
+                // border-radius:8px 0 0 0;
+                text-align: center;
+                position: relative;
+                span{
+                    position: absolute;
+                    top:4px;
+                    left:5px;
+                    display: inline-block;
+                    height: 13px;
+                    width: 13px;
+                    background-color: #FFFAE0;
+                    border:1px solid #BBAE70;
+                    border-radius: 50%;
+                    position: relative;
+                    i{
+                        display: inline-block;
+                        position: absolute;
+                        top:-16px;
+                        left:-1px;
+                        // display: none;
+                        color:#FFDE3B;
+                        font-size:13px;
+                    }
+                }
+            }
+            &>span{
+                position: absolute;
+                top:1px;
+                left:30px;
+            }
+        }
+        
+        .carPayBtnAdd{
+            display: inline-block;
+            p,span{
+                display: inline-block;
+                font-size:14px;
+            }
+            span{
+                color:#FA4A0D;
+            }
+        }
+        .carPayBtn{
+            float:right;
+            width: 90px;
+            height: 100%;
+            background-color: #FFDE3B;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+}

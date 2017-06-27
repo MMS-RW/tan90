@@ -1,0 +1,138 @@
+/* reset */
+
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -webkit-overflow-scrolling: touch;}
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn,b{font-style:normal; font-weight:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+input[type="button"],input[type="submit"]{-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:14px/1.14 Microsoft Simhei,"?￠èí??oú",Micorsoft Yahei,Helvetica,"Heiti SC","Droid Sans","Droidsansfallback",sans-serif;color:#333;outline:0;}
+html{font-size: 100px; height: 100%; min-width: 320px; min-height: 568px;}
+body{font-size: 14px; min-width: 320px; max-width: 740px; min-height: 100%; background-color: #fff; margin-left: auto; margin-right: auto;}
+/*a,a:hover{color:#333;}*/
+
+/* function */
+.f-cb { zoom: 1;}
+.f-cb:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "";}
+.f-dn { display: none;}
+.f-db { display: block;}
+.f-dbb { display: block !important;}
+.f-fl { float: left;}
+.f-fr { float: right;}
+.f-oh { overflow: hidden;}
+.f-pr { position: relative;}
+.f-pa { position: absolute;}
+.f-tac { text-align: center;}
+input, textarea, select, button{
+	text-rendering: auto;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+}
+
+.ba-good{
+	width: 100%;
+	background-color: #ffffff;
+	margin-top: 8px;
+	.ba-header-left{
+		margin-left:10px;
+	}
+	.ba-good-title{
+		font-family: PingFang-SC-Regular,Helvetica Neue,Helvetica,STHeiTi,Arial,sans-serif;
+		font-size: 17px;
+		color: #333;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		font-weight: 400;
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		text-align: center;	
+
+		p{
+
+			font-size:18px;
+			
+		}
+	}
+	.ba-good-goods{
+		width:100%;
+		ul{
+			width:100%;
+			.ba-good-item{
+				width:30%;
+				
+				margin-left:3%;
+				float:left;
+				.ba-select{
+					background-image: url('../../assets/imgs/bgt1.png');
+					width:100%;
+					text-algin:center;
+					.ba-item-select{
+						height:49px;
+						text-align: center;
+						h2{
+							color: #333333;
+							margin:0 auto;
+							margin-top: 20px;
+						
+							display: block;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
+							font-weight: bold;
+							height: 15px;
+							line-height: 15px;
+							
+						}
+						span{
+							height: 20px;
+							font-size: 10px;
+							text-overflow: ellipsis;
+							
+
+							color: #505050;
+							letter-spacing: 0;
+							line-height: 16px;
+							display: block;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
+							
+							display: inline-block;
+							padding: 1px;
+							border: 0.5px solid rgba(80, 80, 80, 0.3);
+							margin: 0 auto;
+							p{}
+						}
+					}
+					.ba-item-img{
+						width:100%;
+						text-align: center;
+						img{
+							width: 80%;
+							height: 80%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

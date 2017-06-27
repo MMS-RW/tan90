@@ -1,0 +1,37 @@
+.footer_container{
+	max-width:640px;
+	margin:0;
+	padding:0;
+	height:45px;
+	position:fixed;
+	width:100%;
+	bottom:0;
+	border-top:1px solid #eee;
+	background-color:white;
+	z-index:100;
+	ul{
+		width:100%;
+		.footer_li{
+			float:left;
+			a{
+				color:#666;
+				.iconfont{
+					color:#ffde3b;
+					opacity:.5;
+					font-size: 19px;
+				}
+			}
+			
+			width:25%;
+			text-align:center;
+			p{
+				margin:0;
+				font-size: 12px;
+				
+			}
+		}
+	}
+}
+.aaa{
+	opacity: 1;
+}
