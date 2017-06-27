@@ -1,10 +1,10 @@
 <template>
 	<div class="footer_container">
-		<ul>
+		<ul class='ul1'>
 			<li v-for="(arr,index) in foot" class="footer_li" :class="{'aaa':activeIndex === index}" @click=click(index)>
 				<router-link :to="arr[2]">
-					<p><i :class="'iconfont'+' '+ arr[1]" class="aa"></i></p>
-					<p>{{arr[0]}}</p>
+					<p class="p1"><i :class="'iconfont'+' '+ arr[1]" class="aa"></i></p>
+					<p class="p2">{{arr[0]}}</p>
 				</router-link>
 			</li>
 		</ul>
