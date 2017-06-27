@@ -1,6 +1,6 @@
 <template>
 	<div class="regist_container">
-		<div class="regist_logo"><img src="../../../assets/images/logo.png"></div>
+		<div class="regist_logo"><img src="src/assets/images/logo.png"></div>
 		<div class="regist_text">
 			tan90°方便小区生活
 		</div>

@@ -1,6 +1,6 @@
 <template>
 	<div class="login_container">
-		<div class="login_logo"><img src="../../../assets/images/logo.png"></div>
+		<div class="login_logo"><img src="src/assets/images/logo.png"></div>
 		<div class="login_text">
 			tan90°方便小区生活
 		</div>

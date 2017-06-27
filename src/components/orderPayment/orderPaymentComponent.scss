@@ -149,6 +149,8 @@
             // padding:5px;
             display: flex;
             flex-direction: column;
+            margin: 0 auto;
+            margin-bottom: 5px;
             .orderPaymentMethodTop{
                 flex: 1;
                 height: 40px;
@@ -168,6 +170,7 @@
                 flex: 1;
                 width: 92%;
                 line-height: 40px;
+                padding-left:10px;
                 span:nth-child(1){
                     float: left;
                 }
@@ -180,6 +183,8 @@
             height: 120px;
             display: flex;
             flex-direction: column;
+            margin: 0 auto;
+            margin-bottom: 5px;
             .orderPayMethodTop{
                 flex: 1;
                 height: 40px;
@@ -242,7 +247,7 @@
             }
         }
         .orderPaymentPayTalk{
-            height: 30px;
+            height: 38px;
             padding-left: 10px;
             width: 95%;
             font-size: 12px;
@@ -253,6 +258,8 @@
             height: 120px;
             display: flex;
             flex-direction: column;
+            margin: 0 auto;
+            margin-bottom: 5px;
             .orderPaymentPayMoneyTop{
                 flex: 1;
                 height: 40px;

@@ -24,7 +24,7 @@
                 <router-link to="/car" class="orderPaymentProduct orderPublic">
                     <ul>
                         <li v-for = "(item,index) in showCarMsg">
-                            <img :src="'../../src/assets/imgs/'+item.bigImg" alt="">
+                            <img :src="'src/assets/imgs/'+item.bigImg" alt="">
                         </li>
                     </ul>
                     

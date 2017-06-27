@@ -4,7 +4,7 @@
 			<p><i class="iconfont icon-icon" @click="routerBack"></i><span>我的收货地址</span></p>
 		</div>
 		<div v-if="status" class="address_body">
-			<img src="../../../assets/images/address-none.png"/>
+			<img src="src/assets/images/address-none.png"/>
 		</div>
 		<div v-else>
 			<div class="hasAddress_body">

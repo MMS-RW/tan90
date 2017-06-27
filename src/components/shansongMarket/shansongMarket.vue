@@ -17,7 +17,7 @@
 			<span class="search_quxiao" @click="searchquxiao">取消</span>
 		</span>
 		<div class="shansong_main">
-			<img src="../../assets/imgs/home_shanchao.png" alt="" class="index_kong">
+			<img src="src/assets/imgs/home_shanchao.png" alt="" class="index_kong">
 			<p class="shansong_kai">您身边暂时还没有开通闪送超市</p>
 			<div class="shansong_btn">我要开店</div>
 		</div>

@@ -1,8 +1,8 @@
 <template>
 	<div class="personal_container">
-		<div class="personal_top">
+		<div class="personal_top" :style="note2">
 			<div class="personal_logo">
-				<img src="../../assets/images/logo.png">
+				<img src="src/assets/images/logo.png">
 				<span>{{this.user}}</span>
 			</div>
 			<ul>
@@ -21,7 +21,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="personal_center">
+		<div class="personal_center" :style="note1">
 			<router-link to="/order">
 			<div class="personal_allorder">
 				<span>我的订单</span>
@@ -80,7 +80,14 @@
 				person_nav:[['待支付','icon-pay','/pay'],['待收货','icon-che2','/fetch'],['待评价','icon-daipingjia','/evaluate'],['退货','icon-zuoweituihuo','/saleReturn']],
 				person_more:[['收货地址','icon-shouhuodizhi','/address'],['我要开店','icon-dian','/shop'],['意见反馈','icon-yijianfankui','/feedback']],
 				user:null,
-				btn:'登录'
+				btn:'登录',
+				note1:{
+					backgroundImage: "url(" + require("../../assets/images/back-order.png") + ")",
+            		backgroundRepeat: "no-repeat"
+				},
+				note2:{
+					backgroundImage: "url(" + require("../../assets/images/my-top.png") + ")"
+				}
 			}
 		},
 		methods:{

@@ -18,7 +18,7 @@
 								<span><p>小时候的...</p></span>
 							</div>
 							<div class="ba-item-img">
-								<img src="../../assets/imgs/goodimg1.jpg" alt="">
+								<img src="src/assets/imgs/goodimg1.jpg" alt="">
 							</div>
 						</div>
 					</router-link>
@@ -31,7 +31,7 @@
 								<span>花样美食...</span>
 							</div>
 							<div class="ba-item-img">
-								<img src="../../assets/imgs/goodimg2.jpg" alt="">
+								<img src="src/assets/imgs/goodimg2.jpg" alt="">
 							</div>
 						</div>
 					</router-link>
@@ -44,7 +44,7 @@
 								<span>为您精选...</span>
 							</div>
 							<div class="ba-item-img">
-								<img src="../../assets/imgs/goodimg3.jpg" alt="">
+								<img src="src/assets/imgs/goodimg3.jpg" alt="">
 							</div>
 						</div>
 					</router-link>
@@ -57,7 +57,7 @@
 								<span>尝真五常...</span>
 							</div>
 							<div class="ba-item-img">
-								<img src="../../assets/imgs/goodimg4.jpg" alt="">
+								<img src="src/assets/imgs/goodimg4.jpg" alt="">
 							</div>
 						</div>
 					</router-link>
@@ -70,7 +70,7 @@
 								<span>正品低价...</span>
 							</div>
 							<div class="ba-item-img">
-								<img src="../../assets/imgs/goodimg5.jpg" alt="">
+								<img src="src/assets/imgs/goodimg5.jpg" alt="">
 							</div>
 						</div>
 					</router-link>
@@ -83,7 +83,7 @@
 								<span> 轻松搞定...</span>
 							</div>
 							<div class="ba-item-img">
-								<img src="../../assets/imgs/goodimg6.jpg" alt="">
+								<img src="src/assets/imgs/goodimg6.jpg" alt="">
 							</div>
 						</div>
 					</router-link>
@@ -96,7 +96,7 @@
 								<span>优选创意...</span>
 							</div>
 							<div class="ba-item-img">
-								<img src="../../assets/imgs/goodimg7.jpg" alt="">
+								<img src="src/assets/imgs/goodimg7.jpg" alt="">
 							</div>
 						</div>
 					</router-link>
@@ -109,7 +109,7 @@
 								<span>有态度更...</span>
 							</div>
 							<div class="ba-item-img">
-								<img src="../../assets/imgs/goodimg8.jpg" alt="">
+								<img src="src/assets/imgs/goodimg8.jpg" alt="">
 							</div>
 						</div>
 					</router-link>
@@ -122,7 +122,7 @@
 								<span> 精致厨房...</span>
 							</div>
 							<div class="ba-item-img">
-								<img src="../../assets/imgs/goodimg9.jpg" alt="">
+								<img src="src/assets/imgs/goodimg9.jpg" alt="">
 							</div>
 						</div>
 					</router-link>

@@ -7,7 +7,7 @@
             </div>
         </header>
         <div class="car-body-none" v-show="noGoods">
-            <img src="../../assets/images/car/bgimg.png" alt="">
+            <img src="src/assets/images/car/bgimg.png" alt="">
             <span>您在该店铺中还没有购物哦<br/>快去选购商品吧</span>
             <router-link to="/list" class="car-btn-none">
                 去逛逛
@@ -36,8 +36,8 @@
                             </span>
                         </div>
                         <div class="carBodyMainTopProductRight">
-                            <router-link :to="'details?productId='+item.productId" >
-                                <img :src="'../../src/assets/imgs/'+item.bigImg" alt="">
+                            <router-link :to="'details?id='+item.productId" >
+                                <img :src="'src/assets/imgs/'+item.bigImg" alt="">
                             </router-link>
                             <div class="carBodyMainTopProductRightName">
                                 <span>{{item.productName.slice(0,8)}}...</span>

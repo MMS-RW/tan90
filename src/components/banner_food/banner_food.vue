@@ -7,7 +7,7 @@
 		</div>
 		<div class="food_main">
 			<div class="food_banner">
-				<img src="../../assets/imgs/bannerfood.jpeg" alt="">
+				<img src="src/assets/imgs/bannerfood.jpeg" alt="">
 			</div>
 			<!-- <ul>
 				<li v-for="(arr,index) in imgs" >
@@ -22,7 +22,7 @@
 				    	<div class="swiper-slide a e" v-for="(arr,index) in nav" :class="{'c1':activeIndex === index}" @click="navClick(index)">{{arr}}</div>
 				    </div>
 				</div>
-				<img src="../../assets/imgs/quanqiugou (1).jpeg" alt="">
+				<img src="src/assets/imgs/quanqiugou (1).jpeg" alt="">
 				<ul>
 					<li v-for='(arr,index) in goods[0]' :ref="index">
 					<router-link :to="'details?id='+ arr.id">

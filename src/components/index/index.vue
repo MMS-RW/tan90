@@ -51,19 +51,19 @@
 			<div class="index_bignav">
 				<ul>
 				<router-link to="/origin">
-					<li><img src="../../assets//imgs/home_chandi.jpeg" alt="" ></li>
+					<li><img src="src/assets//imgs/home_chandi.jpeg" alt="" ></li>
 				</router-link>
 				<router-link to="/banner_food">
-					<li><img src="../../assets//imgs/home_shipin.jpeg" alt="" > </li>
+					<li><img src="src/assets//imgs/home_shipin.jpeg" alt="" > </li>
 				</router-link>	
 				<router-link to="/chufang">
-					<li><img src="../../assets//imgs/home_chufang.jpeg" alt="" > </li>
+					<li><img src="src/assets//imgs/home_chufang.jpeg" alt="" > </li>
 				</router-link>
 				<router-link to="/jiashi">
-					<li><img src="../../assets//imgs/home_jiayong.jpeg" alt="" > </li>
+					<li><img src="src/assets//imgs/home_jiayong.jpeg" alt="" > </li>
 				</router-link>
 				<router-link to="/huazhuang">
-					<li><img src="../../assets//imgs/home_huazhuang.jpeg" alt="" > </li>
+					<li><img src="src/assets//imgs/home_huazhuang.jpeg" alt="" > </li>
 				</router-link>
 				</ul>
 			</div>

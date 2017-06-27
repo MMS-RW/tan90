@@ -7,7 +7,7 @@
 		</div>
 		<div class="search_main">
 			<div class="search_goods">
-				<img src="../../assets/imgs/quanqiugou (1).jpeg" alt="">
+				<img src="src/assets/imgs/quanqiugou (1).jpeg" alt="">
 				<ul>
 					<li v-for='(arr,index) in goods[0]' :ref="index">
 					<router-link :to="'details?id='+ arr.id">

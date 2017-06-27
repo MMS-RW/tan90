@@ -8,7 +8,7 @@
         </header>
         <div class="details-main">
             <div class="details-carousal">
-                <img :src="'../../src/assets/imgs/'+ detailsProductMsg.bigImg" alt="">
+                <img :src="'src/assets/imgs/'+ detailsProductMsg.bigImg" alt="">
             </div>
             <div class="details-msg">
                 <div class="detailsGoodsNameBox">
@@ -49,7 +49,7 @@
                     </span>
                 </div>
                 <div class="detailsIntroduceBoxBody" v-for= "(item,index) in detailsProductMsg.msgImg">
-                    <img :src="'../../src/assets/imgs/'+item" >
+                    <img :src="'src/assets/imgs/'+item" >
                     
                 </div>
             </div>
